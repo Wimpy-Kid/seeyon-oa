@@ -1,0 +1,26 @@
+{
+  "name": "cherrylu/seeyon-oa",
+  "description": "致远OA REST接口",
+  "keywords": ["seeyon","oa","seeyon-oa"],
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "cherry-lu",
+      "email": "1002161225@qq.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0.1"
+  },
+  "require-dev": {
+    "illuminate/support": "^8.0",
+    "vlucas/phpdotenv": "^5.2.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "cherrylu\\seeyon-oa\\": "src"
+    }
+  }
+}
