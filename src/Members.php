@@ -1,7 +1,7 @@
 <?php
 
 
-namespace SeeYon;
+namespace CherryLu\SeeYonOa;
 
 use GuzzleHttp\Client;
 
